@@ -1,0 +1,19 @@
+Functional Requirements
+-------------------------------
+GUI
+	- Input
+	- History
+	- Record
+	- Settings
+
+Database System
+	- Schema
+	- CRUD interfaces
+
+Printing System
+	- One
+	- Many
+
+Non-Funcional Requirements
+-------------------------------
+- Error Log

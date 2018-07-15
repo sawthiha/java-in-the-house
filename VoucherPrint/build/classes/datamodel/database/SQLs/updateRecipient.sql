@@ -1,0 +1,1 @@
+UPDATE tblRecipient SET recipient = ?, phone = ?, address = ?, amount = ?, plus = ?, minus = ?, remark = ? WHERE id = ?

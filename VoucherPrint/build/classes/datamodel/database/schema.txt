@@ -1,0 +1,27 @@
+customer | date | phone | recipient | recipient address | amount | plus | minus
+
+1st Normal Form
+Voucher
+customer | date | phone
+
+Recipient
+name | address | amount | plus | minus
+
+2nd Normal Form
+Voucher
+id | customer | date | phone
+Candidate - id, customer
+
+Recipient
+id | voucher | name | address | amount | plus | minus
+Candidate - id
+
+3rd Normal Form
+Voucher
+id | customer | date | phone
+Primary - id
+
+Recipient
+id | voucher | name | address | amount | plus | minus
+Primary - id
+Foreign - voucher references Voucher(id)                                      

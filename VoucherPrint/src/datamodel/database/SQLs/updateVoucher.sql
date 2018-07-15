@@ -1,0 +1,1 @@
+UPDATE tblVoucher SET customer = ?, created_date = ?, phone = ? WHERE id = ?

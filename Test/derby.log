@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+Mon Aug 28 17:41:20 MMT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-015e-2889-eaa9-000002ed1ba0 
+on database directory /home/sawthiha/NetBeansProjects/Test/dbVoucher with class loader sun.misc.Launcher$AppClassLoader@d716361 
+Loaded from file:/opt/Apache/db-derby-10.13.1.1-bin/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_131-8u131-b11-2ubuntu1.17.04.3-b11
+user.dir=/home/sawthiha/NetBeansProjects/Test
+os.name=Linux
+os.arch=amd64
+os.version=4.10.0-32-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Aug 28 17:54:58 MMT 2017: Shutting down Derby engine
+----------------------------------------------------------------
+Mon Aug 28 17:54:59 MMT 2017:
+Shutting down instance a816c00e-015e-2889-eaa9-000002ed1ba0 on database directory /home/sawthiha/NetBeansProjects/Test/dbVoucher with class loader sun.misc.Launcher$AppClassLoader@d716361 
+----------------------------------------------------------------

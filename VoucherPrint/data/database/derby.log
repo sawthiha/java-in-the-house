@@ -1,0 +1,143 @@
+Sat Jun 16 13:08:58 MMT 2018 Thread[main,5,main] Cleanup action starting
+java.sql.SQLException: Database 'data/database/dbVoucher' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.apache.derby.impl.tools.ij.ij.dynamicConnection(Unknown Source)
+	at org.apache.derby.impl.tools.ij.ij.ConnectStatement(Unknown Source)
+	at org.apache.derby.impl.tools.ij.ij.ijStatement(Unknown Source)
+	at org.apache.derby.impl.tools.ij.utilMain.runScriptGuts(Unknown Source)
+	at org.apache.derby.impl.tools.ij.utilMain.go(Unknown Source)
+	at org.apache.derby.impl.tools.ij.Main.go(Unknown Source)
+	at org.apache.derby.impl.tools.ij.Main.mainCore(Unknown Source)
+	at org.apache.derby.impl.tools.ij.Main.main(Unknown Source)
+	at org.apache.derby.tools.ij.main(Unknown Source)
+Caused by: ERROR XJ004: Database 'data/database/dbVoucher' not found.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 25 more
+============= begin nested exception, level (1) ===========
+ERROR XJ004: Database 'data/database/dbVoucher' not found.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.apache.derby.impl.tools.ij.ij.dynamicConnection(Unknown Source)
+	at org.apache.derby.impl.tools.ij.ij.ConnectStatement(Unknown Source)
+	at org.apache.derby.impl.tools.ij.ij.ijStatement(Unknown Source)
+	at org.apache.derby.impl.tools.ij.utilMain.runScriptGuts(Unknown Source)
+	at org.apache.derby.impl.tools.ij.utilMain.go(Unknown Source)
+	at org.apache.derby.impl.tools.ij.Main.go(Unknown Source)
+	at org.apache.derby.impl.tools.ij.Main.mainCore(Unknown Source)
+	at org.apache.derby.impl.tools.ij.Main.main(Unknown Source)
+	at org.apache.derby.tools.ij.main(Unknown Source)
+============= end nested exception, level (1) ===========
+Cleanup action completed
+Sat Jun 16 13:09:27 MMT 2018 Thread[main,5,main] Cleanup action starting
+java.sql.SQLException: Database 'data/database/dbVoucher' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.apache.derby.impl.tools.ij.ij.dynamicConnection(Unknown Source)
+	at org.apache.derby.impl.tools.ij.ij.ConnectStatement(Unknown Source)
+	at org.apache.derby.impl.tools.ij.ij.ijStatement(Unknown Source)
+	at org.apache.derby.impl.tools.ij.utilMain.runScriptGuts(Unknown Source)
+	at org.apache.derby.impl.tools.ij.utilMain.go(Unknown Source)
+	at org.apache.derby.impl.tools.ij.Main.go(Unknown Source)
+	at org.apache.derby.impl.tools.ij.Main.mainCore(Unknown Source)
+	at org.apache.derby.impl.tools.ij.Main.main(Unknown Source)
+	at org.apache.derby.tools.ij.main(Unknown Source)
+Caused by: ERROR XJ004: Database 'data/database/dbVoucher' not found.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 25 more
+============= begin nested exception, level (1) ===========
+ERROR XJ004: Database 'data/database/dbVoucher' not found.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.apache.derby.impl.tools.ij.ij.dynamicConnection(Unknown Source)
+	at org.apache.derby.impl.tools.ij.ij.ConnectStatement(Unknown Source)
+	at org.apache.derby.impl.tools.ij.ij.ijStatement(Unknown Source)
+	at org.apache.derby.impl.tools.ij.utilMain.runScriptGuts(Unknown Source)
+	at org.apache.derby.impl.tools.ij.utilMain.go(Unknown Source)
+	at org.apache.derby.impl.tools.ij.Main.go(Unknown Source)
+	at org.apache.derby.impl.tools.ij.Main.mainCore(Unknown Source)
+	at org.apache.derby.impl.tools.ij.Main.main(Unknown Source)
+	at org.apache.derby.tools.ij.main(Unknown Source)
+============= end nested exception, level (1) ===========
+Cleanup action completed
+----------------------------------------------------------------
+Sat Jun 16 13:11:44 MMT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0164-0751-7e13-000002ea19e8 
+on database directory /home/sawthiha/Documents/NetBeansProjects/VoucherPrint/data/database/dbVoucher with class loader sun.misc.Launcher$AppClassLoader@4d7e1886 
+Loaded from file:/opt/derby/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_171-8u171-b11-0ubuntu0.17.10.1-b11
+user.dir=/home/sawthiha/Documents/NetBeansProjects/VoucherPrint/data/database
+os.name=Linux
+os.arch=amd64
+os.version=4.13.0-45-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Jun 16 13:50:44 MMT 2018: Shutting down Derby engine
+----------------------------------------------------------------
+Sat Jun 16 13:50:44 MMT 2018:
+Shutting down instance a816c00e-0164-0751-7e13-000002ea19e8 on database directory /home/sawthiha/Documents/NetBeansProjects/VoucherPrint/data/database/dbVoucher with class loader sun.misc.Launcher$AppClassLoader@4d7e1886 
+----------------------------------------------------------------

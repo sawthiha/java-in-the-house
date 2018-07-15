@@ -1,0 +1,16 @@
+----------------------------------------------------------------
+Tue Jul 10 21:58:57 MMT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-0164-84cf-5426-0000028ae968 
+on database directory /home/sawthiha/Documents/NetBeansProjects/VoucherPrint/data/database/dbVoucher with class loader sun.misc.Launcher$AppClassLoader@1b6d3586 
+Loaded from file:/home/sawthiha/Documents/NetBeansProjects/VoucherPrint/lib/JAVADB_DRIVER_LABEL-2/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_172-b11
+user.dir=/home/sawthiha/Documents/NetBeansProjects/VoucherPrint
+os.name=Linux
+os.arch=amd64
+os.version=4.15.0-23-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Jul 10 22:50:18 MMT 2018:
+Shutting down instance a816c00e-0164-84cf-5426-0000028ae968 on database directory /home/sawthiha/Documents/NetBeansProjects/VoucherPrint/data/database/dbVoucher with class loader sun.misc.Launcher$AppClassLoader@1b6d3586 
